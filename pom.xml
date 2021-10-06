@@ -8,15 +8,19 @@
         <version>2.5.5</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
+
     <groupId>com.devopsbuddy</groupId>
     <artifactId>devopsbuddy</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>devopsbuddy</name>
     <description>devopsbuddy</description>
+
     <properties>
         <java.version>11</java.version>
     </properties>
+
     <dependencies>
+        <!-- Spring Boot dependencies -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
@@ -31,6 +35,20 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+
+        <!-- Webjars for jQuery and Bootstrap -->
+        <dependency>
+            <groupId>org.webjars</groupId>
+            <artifactId>bootstrap</artifactId>
+            <version>3.3.6</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.webjars</groupId>
+            <artifactId>jquery</artifactId>
+            <version>2.1.4</version>
+        </dependency>
+
     </dependencies>
 
     <build>
