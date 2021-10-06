@@ -37,4 +37,5 @@ build/
 .stripe/
 
 ### StarUML ###
-!**/src/main/resources/uml/*.mdj
+!/src/main/resources/uml/architecture.mdj
+!/src/main/resources/uml/data-model.mdj
