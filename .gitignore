@@ -35,3 +35,6 @@ build/
 
 ### STRIPE ###
 .stripe/
+
+### StarUML ###
+!**/src/main/resources/uml/*.mdj
